@@ -4,7 +4,6 @@ from sources.toonbr import ToonBrSource
 from sources.mangaflix import MangaFlixSource
 from sources.mangalivreblog import MangaLivreBlogSource
 from sources.wolftoon import WolftoonSource  # nova fonte
-from sources.mangaonline import mangaonlineSource
 
 # Dicionário de fontes disponíveis
 _sources = {
@@ -12,7 +11,6 @@ _sources = {
     "MangaFlix": MangaFlixSource(),
     "MangaLivreBlog": MangaLivreBlogSource(),
     "Wolftoon": WolftoonSource(),  # adicionada
-    "mangaonline": mangaonlineSource(),
 }
 
 def get_all_sources():
